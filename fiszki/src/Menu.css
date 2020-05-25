@@ -1,0 +1,25 @@
+.menu{
+    background-color: #eee;
+
+}
+
+.menu-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li {
+    display: inline-block;
+}
+.menu-list a{
+    display: inline-block;
+    padding: 20px 40px;
+    text-decoration: None;
+    color: #111;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+
+}
+
+.menu-list li:hover { background: white; }
