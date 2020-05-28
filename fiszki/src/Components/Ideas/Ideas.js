@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Ideas() {
-    return (
+const Ideas = () => {    
+  return (
       <div>
         <h2>Ideas</h2>
       </div>

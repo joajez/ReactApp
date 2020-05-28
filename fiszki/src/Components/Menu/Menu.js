@@ -15,7 +15,7 @@ import menuComponents from '../../config/menuConfig';
 
 
 
-export default function Menu() {
+const Menu = () => {
 
     const menuItems = []
     for(let i=0;i<menuComponents.length;i++){
@@ -43,3 +43,5 @@ export default function Menu() {
         </Router>
         )
     }
+
+    export default Menu;
