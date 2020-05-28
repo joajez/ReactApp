@@ -23,3 +23,7 @@ li {
 }
 
 .menu-list li:hover { background: white; }
+
+.menu-active {
+    background-color: #fff;
+}
